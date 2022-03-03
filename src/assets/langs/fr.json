@@ -1,0 +1,4 @@
+{
+  "HOME.TITLE": "Bonjour Angular {{value}} avec ngx-translate !",
+  "HOME.SELECT": "Changer la langue"
+}

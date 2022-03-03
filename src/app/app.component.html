@@ -1,5 +1,5 @@
 <div>
-  <h2>{{ "HOME.TITLE" | translate }}</h2>
+  <h2>{{ "HOME.TITLE" | translate: param }}</h2>
   <label>
     {{ "HOME.SELECT" | translate }}
     <select #langSelect (change)="translate.use(langSelect.value)">
@@ -13,3 +13,4 @@
     </select>
   </label>
 </div>
+<div translate [translateParams]="{ value: 'world' }">HOME.SELECT</div>
